@@ -1,0 +1,8 @@
+//Edit your database connections parameters at this path /MyFramework/index.php
+
+//url::redirect($to) is used for redirections where $to is the location you want to redirect to
+//load::view($directory, $data = null) is used for loading pages in the views folder where directory is the name of the folder "/" the filename and $data is an array you can pass to hold the page's contents and it is optional
+//common::loggedIn() is used to check if a session is available.
+//$this->model->query($sqlQuery) in a model class is used for database queries.
+//session::set($key, $value) is used to set sessions where $key is the name of the variable and $value is the value of the variable being set.
+//session::start to start a new session
